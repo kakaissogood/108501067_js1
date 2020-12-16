@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+		var rand = Math.floor(Math.random()*10+1)
+		window.prompt("Please input a number (1~10) util you guess the right number: ")
+		while(window.prompt() != rand){
+			window.prompt()
+			if(window.prompt() == rand){
+				break;
+			}
+		}
+		document.writeln("Congratulations! You're correct :)))")
+
+	</script>
+
+</body>
+</html>
